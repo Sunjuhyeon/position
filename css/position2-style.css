@@ -1,0 +1,28 @@
+.big{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.small-1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30%;
+    left: -33%;
+}
+.small-2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30%;
+    right: -33%;
+}

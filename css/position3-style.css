@@ -1,0 +1,137 @@
+.big-L{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.small-L-1{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: -15%;
+}
+.small-L-2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    right: -15%;
+}
+.small-L-3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -12%;
+    left: -15%;
+}
+.small-L-4{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -12%;
+    right: -15%;
+}
+.md-L-1{
+    border: 5px solid black;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.md-L-2{
+    border: 10px solid black;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.md-L-3{
+    background-color: black;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.small-L-1-1{
+    border:5px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.community{
+    height: 100%;
+}
+
+.big-R{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.small-R-1{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-33%;
+    left: 30%;
+}
+.small-R-2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-33%;
+    right: 30%;
+}
+.small-R-3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:33%;
+    left: -33%;
+}
+.small-R-4{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:33%;
+    right: -33%;
+}
