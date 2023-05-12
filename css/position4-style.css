@@ -1,0 +1,44 @@
+.center-B, .left-S, .right-S{
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.center-B{
+    height: 30vh;
+    width: 30vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-B::after{
+    content: "선주현";
+    font-size: 8vh;
+    color: aliceblue;
+    display: block;
+}
+
+.left-S, .right-S{
+    height: 50%;
+    width: 50%;
+    transition: 0.3s;
+}
+
+.left-S{
+    left: 10%;
+}
+.right-S{
+    right: 10%;
+}
+
+.center-B:hover .left-S{
+    left: 0;
+    transform: translateX(-100%);
+}
+.center-B:hover .right-S{
+    right: 0;
+    transform: translateX(100%);
+}
